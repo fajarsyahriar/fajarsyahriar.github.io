@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fajar Syahriar | Developer Portfolio &amp; GitHub Showcase</title>
+    <meta name="description" content="Showcase arsitektur web statis, Core Web Vitals, dan repositori open-source oleh Fajar Syahriar. Kunjungi situs resmi di fajarsyahriar.my.id">
+    <meta name="keywords" content="Fajar Syahriar, GitHub Pages, Web Architect, Developer Portfolio, Technical SEO, Core Web Vitals, Static Site Architecture">
+    <link rel="canonical" href="https://fajarsyahriar.github.io/">
+
+    <!-- Favicon / Manifest (Identical to fajarsyahriar.my.id) -->
+    <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/icons/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    <link rel="manifest" href="assets/icons/site.webmanifest">
+    <meta name="apple-mobile-web-app-title" content="Fajar S" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fajarsyahriar.github.io/">
+    <meta property="og:title" content="Fajar Syahriar | Developer Portfolio &amp; GitHub Showcase">
+    <meta property="og:description" content="Showcase arsitektur web berperforma tinggi, zero-bloat engineering, dan repositori teknis oleh Fajar Syahriar.">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Fajar Syahriar | Developer Portfolio &amp; GitHub Showcase">
+    <meta property="twitter:description" content="Showcase arsitektur web berperforma tinggi, zero-bloat engineering, dan repositori teknis oleh Fajar Syahriar.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JSON-LD Structured Data (Entity Graph) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "name": "Fajar Syahriar",
+          "url": "https://fajarsyahriar.my.id/",
+          "sameAs": [
+            "https://github.com/fajarsyahriar",
+            "https://fajarsyahriar.github.io/",
+            "https://www.linkedin.com/in/fajarsyahriar/",
+            "https://www.instagram.com/fajar_syahriar/",
+            "https://x.com/fajarsyahriar/",
+            "https://wa.me/fajar.syahriar"
+          ],
+          "jobTitle": "Digital Strategist & Web Architect",
+          "knowsAbout": ["Web Architecture", "Technical SEO", "Core Web Vitals", "Brand Identity", "Cloudflare Edge"]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Contained Background Glows (Zero-Overflow Protected) -->
+    <div class="bg-glows" aria-hidden="true">
+        <div class="bg-glow-1"></div>
+        <div class="bg-glow-2"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav-wrap">
+                <!-- Official Vector Logo (Identical to fajarsyahriar.my.id) -->
+                <a href="/" class="logo-area" aria-label="Fajar Syahriar Home">
+                    <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125.22633 27.27131" width="129" height="28" role="img" aria-label="Fajar Syahriar Logo" class="brand-logo-svg">
+                        <path class="cls-1" d="m18.36196,16.02158c.88294-2.17129,1.77379-4.33943,2.64691-6.51465,1.20067-2.99123,2.38756-5.98795,3.58159-8.98183.10424-.26137.25368-.40521.58622-.40296,2.27169.01539,4.54369.01512,6.81523-.01078.37383-.00426.49263.17771.60171.45393.6101,1.5449,1.22245,3.08892,1.83531,4.63273.04546.11452.10092.22509.22368.49668,0-1.77155.02646-3.37557-.01513-4.97782-.01357-.52282.1461-.60435.62728-.60315,6.66275.01667,13.32557.01837,19.98828-.00317.52581-.0017.61825.15061.61084.63201-.02903,1.8848-.02258,3.77037-.00544,5.65544.00329.36175-.07716.48284-.46211.4755-1.3168-.0251-2.63463.00432-3.95153-.0179-.39476-.00666-.55338.0498-.55075.51066.02003,3.50363.03422,7.00779-.00804,10.51108-.02381,1.97404-.51784,3.83041-1.73372,5.44477-1.00892,1.33958-2.40352,2.06139-3.97709,2.50683-2.05686.58224-4.16556.39544-6.25948.42134-1.22161.01512-2.44379-.00248-3.66498.02583-.42622.00988-.6567-.13825-.80196-.53767-.45885-1.26171-.94658-2.51295-1.41772-3.77026-.09419-.25136-.22221-.37246-.52737-.37075-2.71085.01517-5.42182.01201-8.13274.00511-.28507-.00073-.40596.07471-.51289.37388-.45793,1.28121-.97287,2.54206-1.46029,3.81291-.1075.28029-.22341.46089-.59272.4586-2.32863-.01445-4.65745.00243-6.98621.00613-.62537.00099-.61899-.00097-.37352-.60915,1.06566-2.64025,2.12742-5.28207,3.18959-7.92372.02664-.06626.04167-.13718.08224-.27363-1.64404,0-3.24426-.00196-4.84446.00056-1.5653.00246-3.13071.02145-4.69582.0066-.4232-.00402-.57425.0906-.56916.55706.0272,2.49431.01282,4.98906.01279,7.48366q0,.7541-.78826.75592c-2.09977.00118-4.19957-.00499-6.29927.00717-.36403.00211-.51738-.04622-.51695-.48824C.02402,17.5258.00868,9.28126.00005,1.03673-.00091.1248.00421.12157.89352.12144c6.4528-.001,12.90561.00518,19.35836-.01254.47187-.0013.5669.14306.56169.57609-.02291,1.90401-.0268,3.80858-.00438,5.71255.00489.41539-.12532.48864-.51093.4873-3.91352-.01363-7.82711-.00636-11.74069-.00637-.82247,0-.82237-.00267-.82242.84354-.00006,1.08544.01991,2.17145-.01136,3.256-.011.38157.09703.46295.4632.46127,3.18815-.01469,6.37645-.00078,9.56456-.01911.41422-.00238.54636.07794.53518.51965-.03419,1.35086-.01242,2.70314-.01242,4.05486.02922.00896.05843.01793.08765.02689Zm16.72012-9.15701c.10637.22929.17539.36005.22923.49675,1.56425,3.97198,3.12661,7.9447,4.69123,11.91654.06633.16839.08033.37984.27426.46514.8836.38863,2.48219-.38509,2.73981-1.31184.22815-.82074.12659-1.65684.12868-2.48656.00722-2.87517-.00025-5.75039-.00639-8.62558-.00044-.20476.09869-.46194-.29751-.4602-2.55683.01124-5.11374.00575-7.75933.00575Zm-4.38742,9.10132c-.7712-2.13136-1.51326-4.18219-2.28367-6.31135-.76158,2.14166-1.49608,4.20721-2.24432,6.31135h4.52799Z"/>
+                        <path class="cls-1" d="m75.04281,19.02299c0-2.32955.01193-4.64163-.01063-6.95337-.00422-.43337.11628-.53415.54183-.53275,4.04662.01335,8.09413.04847,12.1396-.02295,1.66372-.02937,2.55656-.94889,2.52926-2.28028-.01896-.92485-.61884-1.6816-1.55569-1.89598-.36291-.08304-.73533-.142-1.11977-.14097-3.98947.01072-7.97901-.00073-11.96843.01675-.4508.00198-.55878-.10598-.55272-.56484.02637-1.99855.00911-3.99788-.01342-5.99669-.00454-.40303.08276-.54562.53254-.54395,5.0393.01865,10.07993-.05472,15.11751.04013,2.33099.04389,4.54039.69278,6.25186,2.45217,1.08522,1.11561,1.65257,2.48878,1.94913,3.98429.45222,2.2806.17218,4.47374-.87851,6.55412-.68224,1.35081-1.6967,2.39807-3.03669,3.10844-.39396.20884-.411.41006-.2087.77341,1.57742,2.83327,3.13932,5.67513,4.70519,8.5148.04506.08173.07324.17328.12245.25207.20211.32364.20953.47783-.26657.47444-2.88172-.02047-5.76366-.02196-8.64542-.00744-.29922.0015-.40875-.15649-.52055-.34862-1.02724-1.7654-2.04947-3.5337-3.07197-5.30185-.4124-.71316-.82036-1.42888-1.23364-2.14153-.111-.19142-.25909-.2887-.50817-.27734-.5524.02519-1.10837.03622-1.65962.00149-.39603-.02495-.46362.12759-.46133.48435.01502,2.34184-.00712,4.68399.01992,7.02562.00563.48759-.13813.58707-.60528.5835-4.10276-.0313-8.20573-.04006-12.30863-.03926-.41729.00008-.64575-.13243-.79109-.52944-.46214-1.2625-.96158-2.51139-1.42933-3.77191-.09375-.25264-.214-.33728-.48931-.33625-2.71051.01021-5.4211.008-8.13274.00511-.30952-.00138-.45139.08225-.56465.39294-.46546,1.27685-.97942,2.53602-1.46291,3.80648-.10835.28471-.20702.46046-.58547.45657-2.34698-.02411-4.69437-.01764-7.04156-.00719-.36916.00164-.56082.03459-.35842-.46532,2.10723-5.20465,4.18144-10.42259,6.27549-15.63257,1.29406-3.21964,2.60759-6.43149,3.90883-9.64827.10293-.25445.24733-.37695.54682-.37586,2.30962.00836,4.61941.00974,6.92885-.01442.38164-.00399.42502.24201.51826.47508.81786,2.04441,1.63311,4.08987,2.44435,6.13691,1.5398,3.88543,3.0758,7.77236,4.61608,11.6576.08635.21781.08394.48479.33214.64201Zm-11.56038-9.37703c-.77982,2.15233-1.52556,4.21062-2.28782,6.31453h4.59001c-.76801-2.10653-1.52009-4.16937-2.30219-6.31453Z"/>
+                        <path class="cls-2" d="m111.15917,19.05909c.74686.49048,1.37485.88746,2.09716,1.10898,1.03553.31757,2.07819.50094,3.1025.03359,1.15095-.52512,1.27735-1.68583.30067-2.5096-.55483-.46798-1.21148-.76176-1.87767-1.03573-2.08111-.85587-4.22291-1.56964-6.21891-2.62513-1.52843-.80824-2.90731-1.8093-3.58819-3.45775-.99817-2.41666-.70115-4.75578.79488-6.87833,1.37038-1.94428,3.39138-2.93119,5.6689-3.40885,2.6032-.54597,5.1681-.31026,7.61521.70076,2.4862,1.02717,4.14734,2.85154,4.84286,5.49023.1654.62747.24344,1.26035.24417,1.9088.00027.24429-.07634.30661-.31025.30584-2.18884-.00725-4.37775-.00781-6.56659.00062-.22098.00085-.24472-.08467-.28343-.27512-.13214-.65026-.3016-1.28934-.78538-1.79434-.85217-.88955-2.68304-1.06063-3.67411-.23241-.71994.60164-.68924,1.46225.17524,2.14555.83647.66117,1.86469.97182,2.84807,1.35187,1.93208.74671,3.90344,1.39847,5.72932,2.39889,3.06676,1.68032,4.28755,4.14225,3.87495,7.46479-.25223,2.03104-1.34782,3.63606-3.12487,4.80037-2.45193,1.60647-5.16297,1.91327-7.9755,1.80754-.84102-.03162-1.67598-.21621-2.51451-.32466-.41458-.05362-.53016-.19537-.31092-.61253,1.08328-2.06131,1.02214-4.13482-.0636-6.36338Z"/>
+                        <path class="cls-3" d="m111.6342,23.88593c-.0835-.04646-.06531-.08375.0105-.11584-.0035.03861-.00701.07723-.0105.11584Z"/>
+                        <circle class="cls-3" cx="104.73265" cy="22.06562" r="5.20569"/>
+                    </svg>
+                </a>
+
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#about" class="active">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#metrics">Metrics</a></li>
+                    <li><a href="#connect">Connect</a></li>
+                    <li class="mobile-website-btn">
+                        <a href="https://fajarsyahriar.my.id/" target="_blank" rel="noopener">Kunjungi fajarsyahriar.my.id ➔</a>
+                    </li>
+                </ul>
+
+                <div class="nav-actions">
+                    <button class="btn-theme" id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+                    </button>
+                    <a href="https://fajarsyahriar.my.id/" target="_blank" rel="noopener" class="btn-primary nav-cta-desktop">
+                        <span>fajarsyahriar.my.id</span>
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                    </a>
+                    <button class="btn-mobile-toggle" id="mobile-toggle" aria-label="Open Mobile Menu">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="about" class="hero-section">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <span class="dot"></span>
+                            <span>Open for Technical Advisory &amp; Web Projects</span>
+                        </div>
+                        <h1 class="hero-title">
+                            Architecting Fast, <br>
+                            <span class="gradient-text">Zero-Bloat Digital Systems.</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Saya <strong>Fajar Syahriar</strong>, Digital Strategist &amp; Web Architect berbasis di Jakarta Barat. Menghubungkan strategi bisnis terukur dengan rekayasa web berperforma tinggi (Core Web Vitals &lt; 1s) dan visibilitas pencarian modern (SEO &amp; GEO).
+                        </p>
+                        <div class="hero-ctas">
+                            <a href="#projects" class="btn-primary">
+                                <span>Lihat Proyek &amp; Kode</span>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                            <a href="https://wa.me/fajar.syahriar" target="_blank" rel="noopener" class="btn-secondary">
+                                <span>Chat WhatsApp</span>
+                            </a>
+                        </div>
+                        <div class="hero-meta">
+                            <div class="hero-meta-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                <span>Jakarta Barat, Indonesia</span>
+                            </div>
+                            <div class="hero-meta-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                                <span>Zero-Bloat Jamstack</span>
+                            </div>
+                            <div class="hero-meta-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                                <span>Sub-second LCP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Terminal Card -->
+                    <div class="terminal-card">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="terminal-dot dot-red"></span>
+                                <span class="terminal-dot dot-yellow"></span>
+                                <span class="terminal-dot dot-green"></span>
+                            </div>
+                            <div class="terminal-title">bash — fajar@workstation</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">fajar:~$</span> <span class="terminal-cmd">whoami</span>
+                            </div>
+                            <div class="terminal-line terminal-output">
+                                Fajar Syahriar [Digital Strategist &amp; Web Architect]
+                            </div>
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">fajar:~$</span> <span class="terminal-cmd">cat profile.json</span>
+                            </div>
+                            <div class="terminal-line terminal-output">
+                                {<br>
+                                &nbsp;&nbsp;<span class="terminal-key">"primary_domain"</span>: <span class="terminal-val">"fajarsyahriar.my.id"</span>,<br>
+                                &nbsp;&nbsp;<span class="terminal-key">"github_pages"</span>: <span class="terminal-val">"fajarsyahriar.github.io"</span>,<br>
+                                &nbsp;&nbsp;<span class="terminal-key">"core_vitals_lcp"</span>: <span class="terminal-highlight">"&lt; 1.0s"</span>,<br>
+                                &nbsp;&nbsp;<span class="terminal-key">"schema_validation"</span>: <span class="terminal-highlight">"100% Valid JSON-LD"</span>,<br>
+                                &nbsp;&nbsp;<span class="terminal-key">"architecture"</span>: <span class="terminal-val">"Semantic Static / Edge Workers"</span>,<br>
+                                &nbsp;&nbsp;<span class="terminal-key">"location"</span>: <span class="terminal-val">"Jakarta Barat, ID"</span><br>
+                                }
+                            </div>
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">fajar:~$</span> <span class="terminal-cmd">fajar --status</span>
+                            </div>
+                            <div class="terminal-line terminal-output">
+                                <span class="terminal-highlight">● ALL SYSTEMS RUNNING OPTIMALLY</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benchmark Metrics -->
+        <section id="metrics" class="metrics-section">
+            <div class="container">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-number">&lt; 1.0s</div>
+                        <div class="metric-label">Largest Contentful Paint</div>
+                        <div class="metric-desc">Rendering cepat di perangkat mobile</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-number">100%</div>
+                        <div class="metric-label">Semantic &amp; Schema Valid</div>
+                        <div class="metric-desc">Struktur JSON-LD terverifikasi W3C &amp; Google</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-number">0 KB</div>
+                        <div class="metric-label">Framework Runtime Bloat</div>
+                        <div class="metric-desc">Zero-dependency, murni Vanilla Web Standards</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-number">Edge</div>
+                        <div class="metric-label">Serverless Cloudflare Gateway</div>
+                        <div class="metric-desc">Keamanan honeypot &amp; enkripsi TLS Full Strict</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Keahlian &amp; Kapabilitas</span>
+                    <h2 class="section-title">Pilar Rekayasa &amp; Eksekusi</h2>
+                    <p class="section-desc">Mengkombinasikan kemampuan teknis tingkat lanjut dengan pemahaman mendalam tentang pertumbuhan bisnis.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">🏗️</div>
+                        <h3>Web Architecture</h3>
+                        <p>Rekayasa web statis ultra-cepat, HTML5 semantik, arsitektur modular, dan optimasi performa Core Web Vitals.</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5 Semantik</span>
+                            <span class="skill-tag">Vanilla CSS/JS</span>
+                            <span class="skill-tag">Jamstack</span>
+                            <span class="skill-tag">CWV Optimization</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🔍</div>
+                        <h3>Technical SEO &amp; GEO</h3>
+                        <p>Penyusunan structured data Schema.org JSON-LD lengkap, crawl budget, canonicalization, dan kesiapan LLM (llms.txt).</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JSON-LD</span>
+                            <span class="skill-tag">Search Console</span>
+                            <span class="skill-tag">llms.txt</span>
+                            <span class="skill-tag">Crawl Budget</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🎯</div>
+                        <h3>Digital Strategy &amp; CRO</h3>
+                        <p>Perumusan positioning brand, pemetaan pesan, funneling prospek ke WhatsApp Business, dan analitik konversi.</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Positioning</span>
+                            <span class="skill-tag">Conversion Rate</span>
+                            <span class="skill-tag">WhatsApp Funnel</span>
+                            <span class="skill-tag">Ahrefs</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">☁️</div>
+                        <h3>Edge &amp; Infrastructure</h3>
+                        <p>Serverless edge functions Cloudflare Workers, Nginx reverse proxy, aaPanel hardening, serta manajemen SSL/TLS.</p>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Cloudflare Workers</span>
+                            <span class="skill-tag">Nginx</span>
+                            <span class="skill-tag">aaPanel</span>
+                            <span class="skill-tag">Node.js Pipelines</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Showcase -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Showcase Repositori</span>
+                    <h2 class="section-title">Proyek &amp; Hasil Rekayasa</h2>
+                    <p class="section-desc">Kompilasi proyek nyata dengan pendekatan zero-bloat, standar performa tinggi, dan struktur kode bersih.</p>
+                </div>
+
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="*">Semua Proyek</button>
+                    <button class="filter-btn" data-filter="web">Web Architecture</button>
+                    <button class="filter-btn" data-filter="edge">Edge &amp; Cloud</button>
+                    <button class="filter-btn" data-filter="seo">SEO &amp; Data</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-category="web">
+                        <div>
+                            <div class="project-top">
+                                <span class="project-category">Flagship Website</span>
+                                <span class="project-stars">★ Live</span>
+                            </div>
+                            <h3 class="project-title">fajarsyahriar.my.id</h3>
+                            <p class="project-desc">
+                                Situs profil profesional berbasis arsitektur statis tanpa framework berat. Menggunakan Node.js build pipeline mandiri, kompilasi komponen modular, Core Web Vitals LCP &lt; 1s, dan validasi 100% Schema.org JSON-LD.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-badge">Node.js</span>
+                                <span class="tech-badge">HTML5 Semantik</span>
+                                <span class="tech-badge">Vanilla CSS</span>
+                                <span class="tech-badge">Schema JSON-LD</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://fajarsyahriar.my.id/" target="_blank" rel="noopener" class="project-link">
+                                <span>Kunjungi Situs</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                            </a>
+                            <a href="https://fajarsyahriar.my.id/portfolio-details" target="_blank" rel="noopener" class="project-link">
+                                <span>Studi Kasus</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-category="edge">
+                        <div>
+                            <div class="project-top">
+                                <span class="project-category">Serverless Edge</span>
+                                <span class="project-stars">★ Production</span>
+                            </div>
+                            <h3 class="project-title">Cloudflare Workers Form Gateway</h3>
+                            <p class="project-desc">
+                                Micro-service serverless di tepi jaringan (Edge) untuk memproses submit formulir kontak dengan validasi spam honeypot, rate limiting IP (30 detik), CORS origin lockdown, dan penerusan cepat ke WhatsApp.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-badge">Cloudflare Worker</span>
+                                <span class="tech-badge">JavaScript V8</span>
+                                <span class="tech-badge">Honeypot Shield</span>
+                                <span class="tech-badge">WhatsApp API</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://fajarsyahriar.my.id/contact" target="_blank" rel="noopener" class="project-link">
+                                <span>Live Demo Form</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card" data-category="seo">
+                        <div>
+                            <div class="project-top">
+                                <span class="project-category">Technical SEO</span>
+                                <span class="project-stars">★ Verified</span>
+                            </div>
+                            <h3 class="project-title">Automated Schema.org Validator</h3>
+                            <p class="project-desc">
+                                Automated test suite berbasis Node.js yang memverifikasi keutuhan JSON-LD, canonical tagging, image alt accessibility, dan meta description pada seluruh 23 halaman HTML secara simultan sebelum deployment.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-badge">Node:test</span>
+                                <span class="tech-badge">JSON-LD Parser</span>
+                                <span class="tech-badge">SEO Audit</span>
+                                <span class="tech-badge">CI/CD Check</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://fajarsyahriar.my.id/seo-sem" target="_blank" rel="noopener" class="project-link">
+                                <span>Layanan SEO</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card" data-category="web">
+                        <div>
+                            <div class="project-top">
+                                <span class="project-category">Build Tooling</span>
+                                <span class="project-stars">★ Zero Dependency</span>
+                            </div>
+                            <h3 class="project-title">Static Section Orchestrator</h3>
+                            <p class="project-desc">
+                                Pipeline perakitan statis yang menggabungkan shared components (header, footer, contact, search-popup) ke dalam halaman HTML mandiri tanpa membebani runtime client dengan pemanggilan fetch asynchronous.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-badge">Node.js fs</span>
+                                <span class="tech-badge">AST &amp; Regex</span>
+                                <span class="tech-badge">Zero Dependency</span>
+                                <span class="tech-badge">Instant Build</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://fajarsyahriar.my.id/web-development" target="_blank" rel="noopener" class="project-link">
+                                <span>Detail Web Architecture</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Connect Matrix -->
+        <section id="connect" class="connect-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Kanal Resmi &amp; Media Sosial</span>
+                    <h2 class="section-title">Mari Terhubung &amp; Berkolaborasi</h2>
+                    <p class="section-desc">Pilih platform komunikasi yang paling nyaman bagi Anda untuk mendiskusikan proyek atau konsultasi.</p>
+                </div>
+
+                <div class="connect-grid">
+                    <a href="https://fajarsyahriar.my.id/" target="_blank" rel="noopener" class="connect-card">
+                        <div class="connect-icon">🌐</div>
+                        <div class="connect-info">
+                            <div class="connect-title">Website Resmi</div>
+                            <div class="connect-handle">fajarsyahriar.my.id</div>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/fajar.syahriar" target="_blank" rel="noopener" class="connect-card">
+                        <div class="connect-icon">💬</div>
+                        <div class="connect-info">
+                            <div class="connect-title">WhatsApp</div>
+                            <div class="connect-handle">wa.me/fajar.syahriar</div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/fajarsyahriar/" target="_blank" rel="noopener" class="connect-card">
+                        <div class="connect-icon">💼</div>
+                        <div class="connect-info">
+                            <div class="connect-title">LinkedIn</div>
+                            <div class="connect-handle">in/fajarsyahriar</div>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/fajarsyahriar" target="_blank" rel="noopener" class="connect-card">
+                        <div class="connect-icon">🐙</div>
+                        <div class="connect-info">
+                            <div class="connect-title">GitHub</div>
+                            <div class="connect-handle">@fajarsyahriar</div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/fajar_syahriar/" target="_blank" rel="noopener" class="connect-card">
+                        <div class="connect-icon">📸</div>
+                        <div class="connect-info">
+                            <div class="connect-title">Instagram</div>
+                            <div class="connect-handle">@fajar_syahriar</div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.youtube.com/@fajarsyahriar" target="_blank" rel="noopener" class="connect-card">
+                        <div class="connect-icon">🎥</div>
+                        <div class="connect-info">
+                            <div class="connect-title">YouTube</div>
+                            <div class="connect-handle">@fajarsyahriar</div>
+                        </div>
+                    </a>
+
+                    <a href="https://x.com/fajarsyahriar/" target="_blank" rel="noopener" class="connect-card">
+                        <div class="connect-icon">🐦</div>
+                        <div class="connect-info">
+                            <div class="connect-title">X / Twitter</div>
+                            <div class="connect-handle">@fajarsyahriar</div>
+                        </div>
+                    </a>
+
+                    <a href="mailto:kontak@fajarsyahriar.my.id" class="connect-card">
+                        <div class="connect-icon">📧</div>
+                        <div class="connect-info">
+                            <div class="connect-title">Email</div>
+                            <div class="connect-handle">kontak@fajarsyahriar.my.id</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="https://fajarsyahriar.my.id/">Situs Utama</a>
+                <span>•</span>
+                <a href="https://fajarsyahriar.my.id/portfolio">Portofolio</a>
+                <span>•</span>
+                <a href="https://fajarsyahriar.my.id/services">Layanan</a>
+                <span>•</span>
+                <a href="https://fajarsyahriar.my.id/contact">Kontak</a>
+            </div>
+            <p>© 2026 Fajar Syahriar. Hosted on GitHub Pages. Engineered with zero bloat.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
