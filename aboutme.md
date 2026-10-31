@@ -12,6 +12,7 @@
 [![X / Twitter](https://img.shields.io/badge/X-@fajarsyahriar-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/fajarsyahriar/)
 [![Facebook](https://img.shields.io/badge/Facebook-fajar.syahriar-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/fajar.syahriar/)
 [![Pinterest](https://img.shields.io/badge/Pinterest-fajarsyahriar-BD081C?style=for-the-badge&logo=pinterest&logoColor=white)](https://id.pinterest.com/fajarsyahriar/)
+[![Kompasiana](https://img.shields.io/badge/Kompasiana-fajarsyahriar9416-005B96?style=for-the-badge&logo=blogger&logoColor=white)](https://www.kompasiana.com/fajarsyahriar9416)
 [![Email](https://img.shields.io/badge/Email-kontak@fajarsyahriar.my.id-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kontak@fajarsyahriar.my.id)
 
 <br/>
@@ -93,6 +94,7 @@ Apakah Anda memiliki proyek website baru, ingin mengaudit dan mempercepat websit
 | 🐦 **X (Twitter)** | [@fajarsyahriar](https://x.com/fajarsyahriar/) | Pemikiran seputar tech, SEO, & digital marketing |
 | 📘 **Facebook** | [facebook.com/fajar.syahriar](https://www.facebook.com/fajar.syahriar/) | Jaringan komunitas & koneksi sosial |
 | 📌 **Pinterest** | [pinterest.com/fajarsyahriar](https://id.pinterest.com/fajarsyahriar/) | Kurasi ide desain, moodboard & visual art |
+| ✍️ **Kompasiana** | [kompasiana.com/fajarsyahriar9416](https://www.kompasiana.com/fajarsyahriar9416) | Artikel opini, jurnalisme warga & literasi digital |
 | 💬 **WhatsApp** | [wa.me/fajar.syahriar](https://wa.me/fajar.syahriar) / [+62 895-6360-34408](https://wa.me/62895636034408) | Konsultasi cepat & diskusi proyek |
 | 📧 **Email** | [kontak@fajarsyahriar.my.id](mailto:kontak@fajarsyahriar.my.id) | Surat resmi & penawaran kolaborasi |
 | 📍 **Lokasi** | Jakarta Barat, DKI Jakarta, Indonesia | Basis operasional |

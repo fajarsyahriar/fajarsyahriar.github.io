@@ -7,6 +7,7 @@
 - Tech Showcase (GitHub Pages): https://fajarsyahriar.github.io/
 - GitHub Profile: https://github.com/fajarsyahriar
 - LinkedIn: https://www.linkedin.com/in/fajarsyahriar/
+- Kompasiana: https://www.kompasiana.com/fajarsyahriar9416
 
 ## Layanan & Dokumentasi Teknis
 - Web Development & Architecture: https://fajarsyahriar.my.id/services/web-development
