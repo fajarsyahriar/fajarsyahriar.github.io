@@ -6,6 +6,7 @@
 [![Website](https://img.shields.io/badge/Website-fajarsyahriar.my.id-e43e46?style=for-the-badge&logo=google-chrome&logoColor=white)](https://fajarsyahriar.my.id/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Fajar_Syahriar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fajarsyahriar/)
 [![Instagram](https://img.shields.io/badge/Instagram-@fajar__syahriar-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/fajar_syahriar/)
+[![TikTok](https://img.shields.io/badge/TikTok-@fajar.syahriar-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@fajar.syahriar)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-wa.me%2Ffajar.syahriar-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/fajar.syahriar)
 
 [![YouTube](https://img.shields.io/badge/YouTube-@fajarsyahriar-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@fajarsyahriar)
@@ -90,6 +91,7 @@ Apakah Anda memiliki proyek website baru, ingin mengaudit dan mempercepat websit
 | 🌐 **Website Resmi** | [fajarsyahriar.my.id](https://fajarsyahriar.my.id/) | Portofolio, studi kasus, & layanan digital |
 | 💼 **LinkedIn** | [linkedin.com/in/fajarsyahriar](https://www.linkedin.com/in/fajarsyahriar/) | Profil profesional & jejaring kerja |
 | 📸 **Instagram** | [@fajar_syahriar](https://www.instagram.com/fajar_syahriar/) | Aktivitas visual, insight & personal update |
+| 🎵 **TikTok** | [@fajar.syahriar](https://www.tiktok.com/@fajar.syahriar) | Video pendek edukasi, insight digital & personal branding |
 | 🎥 **YouTube** | [@fajarsyahriar](https://www.youtube.com/@fajarsyahriar) | Konten video & eksplorasi multimedia |
 | 🐦 **X (Twitter)** | [@fajarsyahriar](https://x.com/fajarsyahriar/) | Pemikiran seputar tech, SEO, & digital marketing |
 | 📘 **Facebook** | [facebook.com/fajar.syahriar](https://www.facebook.com/fajar.syahriar/) | Jaringan komunitas & koneksi sosial |
