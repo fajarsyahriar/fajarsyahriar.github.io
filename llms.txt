@@ -5,6 +5,7 @@
 ## Situs Utama & Otoritas
 - Website Bisnis Utama: https://fajarsyahriar.my.id/
 - Tech Showcase (GitHub Pages): https://fajarsyahriar.github.io/
+- RSS Feed (Umpan RSS Blog): https://fajarsyahriar.my.id/feed.xml
 - GitHub Profile: https://github.com/fajarsyahriar
 - LinkedIn: https://www.linkedin.com/in/fajarsyahriar/
 - TikTok: https://www.tiktok.com/@fajar.syahriar
