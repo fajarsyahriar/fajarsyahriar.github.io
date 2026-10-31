@@ -52,4 +52,9 @@ Setelah di-push:
 
 ---
 
-© 2026 Fajar Syahriar. All rights reserved.
+## ⚖️ License & Intellectual Property
+
+Copyright © 2026 **Fajar Syahriar**. All rights reserved.
+
+This repository and its design system are proprietary and exclusive intellectual property. Unauthorized copying, modification, redistribution, or commercial use is strictly prohibited. See [LICENSE](LICENSE) for full legal terms.
+
