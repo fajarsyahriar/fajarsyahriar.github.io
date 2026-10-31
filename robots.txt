@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fajarsyahriar.github.io/sitemap.xml
+LLMs: https://fajarsyahriar.github.io/llms.txt
+

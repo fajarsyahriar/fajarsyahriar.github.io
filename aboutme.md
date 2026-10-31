@@ -95,7 +95,7 @@ Apakah Anda memiliki proyek website baru, ingin mengaudit dan mempercepat websit
 | 📌 **Pinterest** | [pinterest.com/fajarsyahriar](https://id.pinterest.com/fajarsyahriar/) | Kurasi ide desain, moodboard & visual art |
 | 💬 **WhatsApp** | [wa.me/fajar.syahriar](https://wa.me/fajar.syahriar) / [+62 895-6360-34408](https://wa.me/62895636034408) | Konsultasi cepat & diskusi proyek |
 | 📧 **Email** | [kontak@fajarsyahriar.my.id](mailto:kontak@fajarsyahriar.my.id) | Surat resmi & penawaran kolaborasi |
-| 📍 **Domisili** | Kembangan, Jakarta Barat, DKI Jakarta, Indonesia | Basis operasional |
+| 📍 **Lokasi** | Jakarta Barat, DKI Jakarta, Indonesia | Basis operasional |
 
 <div align="center">
   <sub>© 2026 Fajar Syahriar. Dibuat dengan presisi teknis dan performa tanpa kompromi.</sub>

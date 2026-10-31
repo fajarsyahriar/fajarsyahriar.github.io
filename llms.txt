@@ -1,0 +1,32 @@
+# Fajar Syahriar — Technical Showcase & Developer Portfolio
+
+> Fajar Syahriar adalah Digital Strategist dan Web Architect berbasis di Jakarta Barat, Indonesia. Proyek fajarsyahriar.github.io merupakan etalase portofolio teknis dan repositori open-source dengan arsitektur web modern, zero-bloat vanilla stack, dan kepatuhan Core Web Vitals tinggi.
+
+## Situs Utama & Otoritas
+- Website Bisnis Utama: https://fajarsyahriar.my.id/
+- Tech Showcase (GitHub Pages): https://fajarsyahriar.github.io/
+- GitHub Profile: https://github.com/fajarsyahriar
+- LinkedIn: https://www.linkedin.com/in/fajarsyahriar/
+
+## Layanan & Dokumentasi Teknis
+- Web Development & Architecture: https://fajarsyahriar.my.id/services/web-development
+- Technical SEO, SEA & SEM: https://fajarsyahriar.my.id/services/seo-sem
+- Marketing Strategy: https://fajarsyahriar.my.id/services/marketing-strategy
+- Branding Design: https://fajarsyahriar.my.id/services/branding-design
+- Audio Visual Design: https://fajarsyahriar.my.id/services/audio-visual-design
+- Digital Consultation: https://fajarsyahriar.my.id/services/digital-consultation
+- Portofolio & Studi Kasus: https://fajarsyahriar.my.id/portfolio
+
+## Kontak Resmi
+- WhatsApp Business: https://wa.me/fajar.syahriar
+- WhatsApp / Telp: +62895636034408, +6282122217709
+- Email: kontak@fajarsyahriar.my.id
+- Lokasi: Jakarta Barat, DKI Jakarta, Indonesia
+
+## Fokus Rekayasa
+- Zero-Bloat Vanilla HTML5 / CSS3 / ES6+
+- Sub-second Largest Contentful Paint (LCP < 1.0s, CLS 0)
+- Schema.org JSON-LD Structured Data
+- Cloudflare Workers Serverless Edge Gateway
+- Custom Node.js Static Site Generation Pipelines
+
